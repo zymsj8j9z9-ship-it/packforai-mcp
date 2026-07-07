@@ -17,7 +17,7 @@ import { basename } from "node:path";
 const API_BASE = process.env.PACKFORAI_BASE_URL ?? "https://packforai.com/api/v1";
 const API_KEY = process.env.PACKFORAI_API_KEY;
 
-const server = new McpServer({ name: "packforai", version: "0.1.0" });
+const server = new McpServer({ name: "packforai", version: "0.1.1" });
 
 server.registerTool(
   "convert_document",

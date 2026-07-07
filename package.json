@@ -1,6 +1,7 @@
 {
   "name": "packforai-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.zymsj8j9z9-ship-it/packforai-mcp",
   "description": "MCP server for PackForAI — convert PDF, DOCX, PPTX, XLSX, CSV, JSON into clean, AI-ready Markdown from Claude, Cursor and other MCP clients.",
   "type": "module",
   "bin": {
