@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.zymsj8j9z9-ship-it/packforai-mcp",
-  "description": "Convert PDF, DOCX, PPTX, XLSX, CSV and JSON into clean, compact, AI-ready Markdown via the PackForAI API — from Claude, Cursor and other MCP clients.",
+  "description": "Convert PDF, DOCX, XLSX, CSV, JSON into clean, AI-ready Markdown via the PackForAI API.",
   "repository": {
     "url": "https://github.com/zymsj8j9z9-ship-it/packforai-mcp",
     "source": "github"
