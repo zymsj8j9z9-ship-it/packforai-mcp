@@ -1,0 +1,50 @@
+{
+  "name": "packforai-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for PackForAI — convert PDF, DOCX, PPTX, XLSX, CSV, JSON into clean, AI-ready Markdown from Claude, Cursor and other MCP clients.",
+  "type": "module",
+  "bin": {
+    "packforai-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "model-context-protocol",
+    "packforai",
+    "pdf",
+    "docx",
+    "markdown",
+    "ai",
+    "llm",
+    "claude",
+    "cursor",
+    "rag"
+  ],
+  "homepage": "https://packforai.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zymsj8j9z9-ship-it/packforai-mcp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3"
+  }
+}
